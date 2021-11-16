@@ -1,12 +1,18 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule, ArrayOfComponents  } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DepositaComponent } from './deposita/deposita.component';
+import { DepositbComponent } from './depositb/depositb.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ArrayOfComponents,
+    DepositaComponent,
+    DepositbComponent
   ],
   imports: [
     BrowserModule,
